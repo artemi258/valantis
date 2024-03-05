@@ -1,0 +1,59 @@
+.root {
+  border: 1px blue solid;
+  border-left: none;
+}
+
+.names {
+  display: grid;
+  grid-template: auto / repeat(4, 1fr);
+}
+
+.names div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px blue solid;
+  color: blueviolet;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.products {
+  display: grid;
+  grid-template: auto / 1fr;
+}
+
+.loading {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn:last-child {
+  margin-left: 10px;
+}
+
+.btn:disabled {
+  cursor: default;
+}
+
+.pageNumber {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.text {
+  margin-top: 10px;
+  text-align: center;
+}
