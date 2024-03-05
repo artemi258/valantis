@@ -1,6 +1,6 @@
 import { request } from "../utils/http";
 
-const baseURL = "http://api.valantis.store:40000";
+const baseURL = "https://api.valantis.store:41000";
 
 export const API = {
   getIds: (offset, limit) =>
